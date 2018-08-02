@@ -1,0 +1,68 @@
+.headerBg {
+    background-color: #115188;
+    color: #ffff;
+}
+.container{
+    max-width:1170px;
+    margin:auto;
+    padding: 0 15px;
+}
+.clr{
+   clear: both;
+}
+.navLink{
+   text-decoration: none;
+}
+.navLink:hover{
+   text-decoration: none;
+}
+.navLogo{
+   float: left;
+    padding: 14px 0;
+}
+.navRight{
+   float: right;
+}
+.navRight .navLink{
+   color:#fff;
+    display: inline-block;
+}
+.navLink:hover{
+   text-decoration: none
+}
+.navRight ul li{
+   list-style: none;
+    display: inline-block;
+    padding:14px 10px;
+    font-size: 15px;
+}
+.navRight ul li.active{
+   background: #1f6db1
+}
+.navRight ul {
+    -webkit-margin-before: 0;
+    -webkit-margin-after: 0;
+    -webkit-padding-start: 0;
+}
+.navbar-brand{
+   margin: 0px;
+    padding:10px 0;
+}
+@media screen and (max-width:650px){
+    .navbar-brand{
+       font-size: 14px;
+   }
+    .navRight ul li{
+       padding: 9px;
+   }
+    .appheader{
+        padding-top: 15px;
+        padding-bottom: 5px;
+        line-height: 40px;
+        font-size: 22px;
+        padding-left: 15px;
+   }
+    .navLogo{
+       padding:9px 0;
+   }
+}

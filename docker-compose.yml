@@ -1,0 +1,9 @@
+version: '2.3'
+
+services:
+  angular:
+    hostname: localhost
+    container_name: countable-demo
+    build: .
+    ports:
+      - 4200:80
